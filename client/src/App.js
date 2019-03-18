@@ -32,9 +32,12 @@ class App extends Component
     // When the form is submitted, prevent its default behavior, get recipes update the recipes state
     //App.js=> API.js=> apiRoute.js=>API.js=>App.js (returns out the array of object for chicken search query in json format)
     event.preventDefault();
+    console.log("requesting handleFormSubmit "+this.state.recipeSearch);
     API.getRecipes(this.state.recipeSearch)
       .then(res => this.setState({ recipes: res.data }))
       .catch(err => console.log(err));
+
+      console.log(this.state.recipes);
   };
 
   render() {
