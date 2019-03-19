@@ -48,11 +48,14 @@ class App extends Component
         <Jumbotron />
         <Container>
           <Row>
-            <Col size="md-12">
               <form>
-                <Container>
+            <Col size="md-12">
+              <Container>
+
+
                   <Row>
-                    <Col size="xs-9 sm-10">
+
+                    <Col size="8 md-8 sm-8">
                       <Input
                         name="recipeSearch"
                         value={this.state.recipeSearch}
@@ -60,7 +63,7 @@ class App extends Component
                         placeholder="Search For a Recipe"
                       />
                     </Col>
-                    <Col size="xs-3 sm-2">
+                    <Col size="4 md-4 sm-4">
                       <Button
                         onClick={this.handleFormSubmit}
                         type="success"
@@ -69,10 +72,13 @@ class App extends Component
                         Search
                       </Button>
                     </Col>
+
                   </Row>
-                </Container>
-              </form>
+
+
+              </Container>
             </Col>
+            </form>
           </Row>
           <Row>
             <Col size="xs-12">
