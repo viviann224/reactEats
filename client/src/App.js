@@ -6,6 +6,7 @@ import Button from "./components/Button";
 import API from "./utils/API";
 import { RecipeList, RecipeListItem } from "./components/RecipeList";
 import { Container, Row, Col } from "./components/Grid";
+import "./App.css";
 
 class App extends Component
 {
@@ -78,6 +79,8 @@ class App extends Component
               {!this.state.recipes.length ? (
                 <h1 className="text-center">No Recipes to Display</h1>
               ) : (
+                <ul className="list-group">
+                  <li className="list-group-item list-group-item-light resultsTitle"><strong>Results</strong></li>
                 <RecipeList>
                   {this.state.recipes.map(recipe => {
                     return (
@@ -91,6 +94,7 @@ class App extends Component
                     );
                   })}
                 </RecipeList>
+              </ul>
               )}
             </Col>
           </Row>

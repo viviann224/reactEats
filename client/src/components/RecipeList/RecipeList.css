@@ -1,0 +1,18 @@
+small{
+  letter-spacing: 1px;
+}
+
+.recipeTitle
+{
+  letter-spacing: -1px;
+}
+
+.searchResultsEntries
+{
+  background-color: #ffffff;
+}
+
+.recipeLink
+{ background-color: rgb(50, 104, 145);
+  border:1px;
+  letter-spacing: -1px;}
