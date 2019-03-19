@@ -7,6 +7,7 @@
   text-align: center;
 }
 
+
 .logo
 {
   word-spacing: 10px;
@@ -16,4 +17,8 @@
 .jumbotron {
   min-height: 200px;
   padding-top: 50px;
+  background: #f7f7f7;
 }
+
+.jumbotron a
+{  color:rgb(50, 104, 145) !important;}
