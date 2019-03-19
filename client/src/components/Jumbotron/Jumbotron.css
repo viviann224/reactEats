@@ -1,3 +1,18 @@
+@font-face {
+	font-family: "mrDafoe";
+	src: url("./MrDafoe-Regular.ttf");
+}
+.lead
+{
+  text-align: center;
+}
+
+.logo
+{
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-family: "mrDafoe","Times New Roman", serif;
+}
 .jumbotron {
   min-height: 200px;
   padding-top: 50px;

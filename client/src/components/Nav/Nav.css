@@ -1,3 +1,15 @@
+@font-face {
+	font-family: "mrDafoe";
+	src: url("./MrDafoe-Regular.ttf");
+}
+/*font-family: "chatfont","Times New Roman", serif;  */
+.logo
+{
+  text-align: center !important;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-family: "mrDafoe","Times New Roman", serif;
+}
 nav.navbar {
   margin-bottom: 0;
   background-color: #ffffff !important;
