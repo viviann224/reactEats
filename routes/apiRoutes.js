@@ -8,6 +8,7 @@ router.get("/recipes", (req, res) => {
     .then(({ data: { results } }) => res.json(results))
     .catch(err => res.status(422).json(err));
     console.log("calling the routing for ricepuppy finished!");
+
 });
 
 

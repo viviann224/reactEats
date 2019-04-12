@@ -9,10 +9,12 @@ const Thumbnail = props => (
     className="thumbnail"
     role="img"
     aria-label="Recipe Image"
-    style={{
-      backgroundImage: `url(${props.src})`
-    }}
-  />
+    // style={{
+    //   backgroundImage: `url(${props.src})`
+    // }}
+  >
+    <img src={props.src} className="thumbnailimg"/>
+  </div>
 );
 
 export default Thumbnail;
