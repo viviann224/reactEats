@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d854904554516c9d06f1",
-    "url": "/static/css/main.6b513412.chunk.css"
+    "revision": "b4d71621f6368fad64fa",
+    "url": "/static/css/main.865b5d42.chunk.css"
   },
   {
-    "revision": "d854904554516c9d06f1",
-    "url": "/static/js/main.d00c5111.chunk.js"
+    "revision": "b4d71621f6368fad64fa",
+    "url": "/static/js/main.410a1314.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/static/js/2.b07b99b7.chunk.js"
   },
   {
-    "revision": "1bdcb1e1164b96fa6f4091af7202a55e",
-    "url": "/static/media/logo.1bdcb1e1.png"
+    "revision": "2b1c236805903e2000a3d51f9c8968ec",
+    "url": "/static/media/logo.2b1c2368.png"
   },
   {
     "revision": "93322e098b4af5ba77c84e42d033b5ff",
     "url": "/static/media/MrDafoe-Regular.93322e09.ttf"
   },
   {
-    "revision": "11eaad7e50c051f76ea640de8aa873bc",
+    "revision": "39b48f877b0720f4d1d9548916c5cd3b",
     "url": "/index.html"
   }
 ];
