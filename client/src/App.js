@@ -7,6 +7,9 @@ import API from "./utils/API";
 import { RecipeList, RecipeListItem } from "./components/RecipeList";
 import { Container, Row, Col } from "./components/Grid";
 import "./App.css";
+// import { FacebookLoginButton } from 'react-social-login-buttons';
+// import{ Form, FormGroup, Label } from 'reactstrap';
+
 
 class App extends Component
 {
@@ -44,6 +47,28 @@ class App extends Component
   render() {
     return (
       <div>
+        {/* <Form>
+        <FormGroup>
+          <Label>Email</Label>
+          <Input type="email" placeholder="Email"/>
+        </FormGroup>
+        <FormGroup>
+          <Label>Password</Label>
+          <Input type="Password" placeholder="Password"/>
+        </FormGroup>
+        <Button className="btn-lg btn-dark btn-block">Login</Button>
+        <div className="text-center pt-3">
+          Or Continue with your social account
+        </div>
+        <FacebookLoginButton className="mt-3 mb-3"/>
+        <div className="text-center">
+          <a href="/signup">Sign Up</a>
+          <span className="p-2"> | </span>
+          <a href="/forgot-password">Forgot Password</a>
+
+        </div>
+      </Form> */}
+
         <Nav />
         <Jumbotron />
         <Container>
@@ -80,10 +105,9 @@ class App extends Component
             </Col>
             </form>
           </Row>
-
           <Row>
             <Col size="xs-12">
-              
+
               {!this.state.recipes.length ? (
                 <h1 className="text-center">No Recipes to Display</h1>
               ) : (

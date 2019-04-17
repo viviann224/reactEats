@@ -10,15 +10,13 @@ const Nav = () => (
   <a className="navbar-brand logo text-center" href="/">React Eats</a>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
-      <li className="nav-item active">
+      {/* <li className="nav-item active">
         <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Features</a>
+        <a className="nav-link" href="#">About</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Pricing</a>
-      </li>
+
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown link
@@ -28,10 +26,10 @@ const Nav = () => (
           <a className="dropdown-item" href="#">Another action</a>
           <a className="dropdown-item" href="#">Something else here</a>
         </div>
-      </li>
+      </li> */}
     </ul>
   </div>
-  login | logout
+  {/* login | logout */}
 </nav>
 );
 
