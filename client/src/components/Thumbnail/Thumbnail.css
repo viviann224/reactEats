@@ -2,16 +2,10 @@ div.thumbnail {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 95%;
-  width: 95%;
-  padding-top: 0%;
-
-
-}
-.thumbnailimg
-{
   width: 100%;
-  height: 100%;
+  padding-top: 100%;
   border-radius: 5px;
   border: 1px solid #ced4da;
+
+
 }

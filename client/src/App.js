@@ -105,10 +105,12 @@ class App extends Component
             </Col>
             </form>
           </Row>
-
           <Row>
             <Col size="xs-12">
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 4a29050... updated results styling for applications with autoresized imgs
               {!this.state.recipes.length ? (
                 <h1 className="text-center">No Recipes to Display</h1>
               ) : (
