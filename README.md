@@ -1,43 +1,41 @@
-# Create React Express App
+# ReactEats
+**GETTING STARTED**:
 
-## About This Boilerplate
+The program should run automatically.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+If the program is not running automatically, please make sure you have all the prerequisites listed below.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+**STATEMENT OF PURPOSE**:
 
-## Starting the app locally
+<strong>ReactEats</strong> is a food application created to find recipes from Recipe Puppy.
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+The application began as a way to demonstrate the usage of React and usage of an API. The application was created via Atom, Adobe Photoshop, and Bootstrap.
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+**HOW TO USE**:
 
-After both installations complete, run the following command in your terminal:
+<strong>ReactEats</strong> contains a series of recipes that anyone can search and view.
+  <strong>ReactEats</strong> is a React application which runs via Heroku deployment.
 
-```
-yarn start
-```
+  **BUILT WITH**:
+- Atom
+- Chrome DevTools
+- Bootstrap
+- Adobe Photoshop CC 2015.5
+- React
+- Heroku
+- Google Fonts
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+**VERSION**:
+This is the first version of ReactEats
 
-## Deployment (Heroku)
+**LICENSE**:
+This project is licensed under GitHub.
 
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
+**AUTHOR**:
+- Vivian Tuong Nguyen - Initial work
 
-1. Build the React app for production by running the following command:
 
-```
-yarn build
-```
-> Note: A yarn build will be required to register any new Post requests from any front-end JavaScript to to prevent any proxy server errors.
 
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+**ACKNOWLEDGMENTS**:
+All rights are reserved to Vivian Tuong Nguyen. Do not alter or manipulate content and images from the author listed above.
+Copyright   :copyright: 2019
