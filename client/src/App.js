@@ -37,43 +37,15 @@ class App extends Component
     // When the form is submitted, prevent its default behavior, get recipes update the recipes state
     //App.js=> API.js=> apiRoute.js=>API.js=>App.js (returns out the array of object for chicken search query in json format)
     event.preventDefault();
-    console.log("requesting handleFormSubmit "+this.state.recipeSearch);
     API.getRecipes(this.state.recipeSearch)
       .then(res => this.setState({ recipes: res.data }))
       .catch(err => console.log(err));
 
-      console.log(this.state.recipes);
   };
 
   render() {
     return (
       <div>
-        {/* <!-- Button trigger modal --> */}
-
-
-
-        {/* <Form>
-        <FormGroup>
-          <Label>Email</Label>
-          <Input type="email" placeholder="Email"/>
-        </FormGroup>
-        <FormGroup>
-          <Label>Password</Label>
-          <Input type="Password" placeholder="Password"/>
-        </FormGroup>
-        <Button className="btn-lg btn-dark btn-block">Login</Button>
-        <div className="text-center pt-3">
-          Or Continue with your social account
-        </div>
-        <FacebookLoginButton className="mt-3 mb-3"/>
-        <div className="text-center">
-          <a href="/signup">Sign Up</a>
-          <span className="p-2"> | </span>
-          <a href="/forgot-password">Forgot Password</a>
-
-        </div>
-      </Form> */}
-
         <Nav />
         <Jumbotron />
         <Container>
@@ -81,10 +53,7 @@ class App extends Component
               <form>
             <Col size="md-12">
               <Container>
-
-
                   <Row>
-
                     <Col size="8 md-8 sm-8">
                       <Input
                         name="recipeSearch"
@@ -99,13 +68,10 @@ class App extends Component
                         type="success"
                         className="input-lg"
                       >
-                        Search
+                      Search
                       </Button>
                     </Col>
-
                   </Row>
-
-
               </Container>
             </Col>
             </form>
@@ -143,5 +109,4 @@ class App extends Component
     );
   }
 }
-
 export default App;

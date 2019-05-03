@@ -12,9 +12,9 @@ const Footer = () => (
 </div>
 
 <div className="col-xs-4 col-sm-4 col-md-4">
-  <a href="https://viviann224.github.io/" className="socialLink" target="_blank"><img src="/images/social/logo.png" id="socialIcon"/></a>
-  <a href="https://github.com/viviann224" className="socialLink" target="_blank"><img src="/images/social/githublogo.png" id="socialIcon"/></a>
-  <a href="https://www.linkedin.com/in/viviantuongnguyen" className="socialLink" target="_blank"><img src="/images/social/linkedinlogo.png" id="socialIcon"/></a>
+  <a href="https://viviann224.github.io/" className="socialLink" ><img src="/images/social/logo.png" alt="Portfolio" id="socialIcon"/></a>
+  <a href="https://github.com/viviann224" className="socialLink" ><img src="/images/social/githublogo.png" alt="GitHub" id="socialIcon"/></a>
+  <a href="https://www.linkedin.com/in/viviantuongnguyen" className="socialLink" ><img src="/images/social/linkedinlogo.png"  alt="LinkedIn" id="socialIcon"/></a>
 </div>
 </div></div>
 </footer>
