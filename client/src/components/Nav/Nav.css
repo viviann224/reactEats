@@ -14,3 +14,44 @@ nav.navbar {
   margin-bottom: 0;
   background-color: #ffffff !important;
 }
+
+.modal-body
+{
+	width:90%;
+}
+
+.nav-link
+{
+	  letter-spacing: -1px;
+		color:#326891 !important;
+
+
+}
+a:hover
+{
+	opacity: 0.6;
+	transition: 0.3s;
+	text-decoration: underline;
+}
+
+
+/* Effect 15: scale down, reveal */
+/* .cl-effect-15 a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
+}
+
+.cl-effect-15 a::before {
+	color: #fff;
+	content: attr(data-hover);
+	position: absolute;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+	transform: scale(0.9);
+	opacity: 0;
+
+} */
