@@ -29,3 +29,9 @@ img#socialIcon {
   color: black;
   font-weight: bold;
 }
+
+.copyright
+{
+  font-size: 12px;
+  letter-spacing: -1px;
+}

@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "36e0be0501c022b793fd",
-    "url": "/static/css/main.865b5d42.chunk.css"
+    "revision": "1c9906f405157ed154bd",
+    "url": "/static/css/main.1eb96832.chunk.css"
   },
   {
-    "revision": "36e0be0501c022b793fd",
-    "url": "/static/js/main.ef1cc5eb.chunk.js"
+    "revision": "1c9906f405157ed154bd",
+    "url": "/static/js/main.6432795d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "cb4c6ae349970dbe15e3",
+    "revision": "01684c10d66a9d90d8ed",
     "url": "/static/css/2.0bfd2e34.chunk.css"
   },
   {
-    "revision": "cb4c6ae349970dbe15e3",
-    "url": "/static/js/2.b07b99b7.chunk.js"
+    "revision": "01684c10d66a9d90d8ed",
+    "url": "/static/js/2.122d1dad.chunk.js"
   },
   {
     "revision": "2b1c236805903e2000a3d51f9c8968ec",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/MrDafoe-Regular.93322e09.ttf"
   },
   {
-    "revision": "1119b9b86d13c9b395d26dbe027332c4",
+    "revision": "8c733a62b144783bdfbfcee427f899be",
     "url": "/index.html"
   }
 ];

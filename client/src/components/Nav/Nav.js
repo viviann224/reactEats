@@ -7,7 +7,7 @@ const Nav = () => (
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
-  <a className="navbar-brand logo text-center" href="/">React Eats</a>
+  <span className="navbar-brand logo text-center" >React Eats</span>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
       <p></p>

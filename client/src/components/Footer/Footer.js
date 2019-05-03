@@ -7,7 +7,7 @@ const Footer = () => (
    <footer className="footer fixed-bottom border-top">
     <div className="container-fluid footer navbar-fixed-bottom footerBody">
   <div className="row">
-<div className="col-xs-8 col-sm-8 col-md-8">
+<div className="col-xs-8 col-sm-8 col-md-8 copyright">
   &#169; Vivian Tuong Nguyen | <small>All rights reserved</small>
 </div>
 
