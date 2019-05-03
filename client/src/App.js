@@ -3,6 +3,7 @@ import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import Input from "./components/Input";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import API from "./utils/API";
 import { RecipeList, RecipeListItem } from "./components/RecipeList";
 import { Container, Row, Col } from "./components/Grid";
@@ -47,6 +48,35 @@ class App extends Component
   render() {
     return (
       <div>
+        {/* <!-- Button trigger modal --> */}
+<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  About
+</button>
+
+{/* <!-- Modal --> */}
+<div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLabel">About ReactEats</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+        <p><strong>ReactEats</strong> is a food application created to find recipes from Recipe Puppy.</p>
+
+        <p>The application began as a way to demonstrate the usage of React and usage of an API. The application was created via Atom, Adobe Photoshop, and Bootstrap.</p>
+        <p><strong>ReactEats</strong> contains a series of recipes that anyone can search and view.</p>
+          <p><strong>ReactEats</strong> is a React application which runs via Heroku deployment.</p>
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        {/* <button type="button" className="btn btn-primary">Save changes</button> */}
+      </div>
+    </div>
+  </div>
+</div>
         {/* <Form>
         <FormGroup>
           <Label>Email</Label>
@@ -130,8 +160,12 @@ class App extends Component
               )}
             </Col>
           </Row>
+
         </Container>
+          <Footer />
+
       </div>
+
     );
   }
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b4d71621f6368fad64fa",
+    "revision": "36e0be0501c022b793fd",
     "url": "/static/css/main.865b5d42.chunk.css"
   },
   {
-    "revision": "b4d71621f6368fad64fa",
-    "url": "/static/js/main.410a1314.chunk.js"
+    "revision": "36e0be0501c022b793fd",
+    "url": "/static/js/main.ef1cc5eb.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/MrDafoe-Regular.93322e09.ttf"
   },
   {
-    "revision": "39b48f877b0720f4d1d9548916c5cd3b",
+    "revision": "1119b9b86d13c9b395d26dbe027332c4",
     "url": "/index.html"
   }
 ];
